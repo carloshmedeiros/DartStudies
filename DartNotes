@@ -1,0 +1,22 @@
+DART
+
+CÓDIGOS
+
+*stdout.write(""); // printar na mesma linha
+*stdin.readLineSync(); // ler linha informada, após Dart 2.12 necessário usar stdin.readLineSync()! ou stdin.readLineSync() ?? ""
+*print("Texto: $variavel") // printar texto junto a uma variavel (utilizar $)
+*print("\n"); // comando para pular linhar
+*print(nome.length); // conta o número de itens presentes na variavel nome
+*print(nome[0]); // printar o 1º item da variavel nome (contagem começa a partir do 0)
+*print("\x1B[2J\x1B[0;0H"); // limpa tela do terminal
+
+Tipagem:
+String = texto;
+int = números;
+double = números decimais;
+bool = condição;
+List<String> = lista que aceita textos;
+Map<String, dynamic> = map que aceita texto como 1º termo e qualquer tipo como 2º termo;
+String _ = variavel local;
+final String = não sera possível atribuir outros valores;
+late String = variavel sera utilizada depois de declarada; // atualização do Dart 2.12
